@@ -1,0 +1,66 @@
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*~
+
+# External reference repositories (cloned third-party codebases)
+MiniCPM-o/
+MiniCPM-o-Demo/
+
+# Python Virtual Environments and Caches
+venv/
+**/venv/
+.venv/
+**/.venv/
+env/
+**/env/
+.env
+*.env
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+**/.pytest_cache/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Flutter / Dart / Mobile build & packages (root rules to ensure clean git status)
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/ios/Flutter/.last_build_id
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# Node.js (for frontend web demos / gateway)
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# Project binaries and archives
+livekit-darwin-arm64.tar.gz
+livekit/livekit-server
+
+# LiveKit Config (contains local API keys/credentials)
+livekit/config.yaml
